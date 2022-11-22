@@ -1,0 +1,25 @@
+{
+  "name": "pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "html-pdf": "^3.0.1",
+    "puppeteer": "^19.2.2"
+  },
+  "bundleDependencies": [
+    "body-parser",
+    "express",
+    "fs",
+    "html-pdf"
+  ]
+}
